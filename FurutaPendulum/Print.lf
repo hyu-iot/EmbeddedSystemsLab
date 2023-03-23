@@ -20,7 +20,7 @@ preamble {=
 =}
 
 // Check path of csv.
-reactor Print(filename:string("pendulum.csv")) {
+reactor Print(filename:string("FurutaPendulum/pendulum.csv")) {
     input control:double;
     input theta:double;
     input phi:double;
